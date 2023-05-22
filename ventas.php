@@ -54,6 +54,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -67,6 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <input type="text" name="id_producto"><br>
         <label>Cantidad:</label>
         <input type="text" name="cantidad"><br>
+
         <input type="submit" value="Realizar venta">
     </form>
 </body>
